@@ -1,13 +1,13 @@
 [user]
   name = Conor O'Neill
-  email = conor.oneill91@gmail.com
-  username = coneill91
+  email = coneill@tenable.com
+  username = coneill
 
 [core]
   editor = vim
 
 [web]
-  browser = firefox
+  browser = google-chrome
 
 [color]
 	ui = auto

@@ -9,7 +9,7 @@ if [ -f $GITCONFIG ]; then
     rm -rf $GITCONFIG
 fi
 
-ln -s $(readlink -f ./git) $GITCONFIG
+ln -s $(greadlink -f ./git) $GITCONFIG
 
 if [ $? -eq 0 ]; then
     echo "success"
